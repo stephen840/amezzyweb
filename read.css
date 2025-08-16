@@ -1,0 +1,132 @@
+body{
+    background-image:url("2/jap.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 19px;
+    color:rgb(255, 255, 255);
+    justify-content: space-between;
+}
+a{
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+
+}
+nav{
+    display: flex;
+    box-shadow: 5px 5px 5px red;
+    justify-content:space-between 5px;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(4px);
+}
+.b{
+   
+    display: flexbox;
+    margin: auto;
+    margin-top: 160px;
+    height: 400px;
+    width: 400px;
+    align-content: center;
+    border:0px  rgb(246, 3, 3);
+    border-style: solid;
+    padding-left: 80px;
+    border-radius: 20px; 
+    box-shadow:6px 6px 6px 6px rgb(234, 5, 5);
+    transition: 0.8s ease-in-out;
+    backdrop-filter:blur(4px);
+    
+    
+   
+}
+.b:hover{
+        box-shadow: 6px 6px 7px red, -7px -7px 7px white;
+       
+}
+#logo{
+    font-size: 40px;
+    margin-right: 80px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 8px 7px rgb(250, 247, 247) ,-1px -3px 3px red;
+    background-clip: text;
+    font-e
+    
+}
+.bar{
+    display: flex;
+    margin-left: 90px; 
+}
+#ty{
+    margin-right:6rem ; 
+    transition: 0.3s ease-in-out; 
+}
+#ty:hover{
+    cursor: pointer;
+    margin-top: 3px;
+    text-decoration: underline red;
+}
+    
+#text{
+   display: flex;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  font-size: 20px ;
+  font-weight: bold ;
+   color: white;
+}
+#name1{
+    margin-bottom: 10px;
+    background-color: rgb(243, 245, 248);
+   width: 250px;
+   height: 30px;
+   border-radius: 20px;
+   outline:none;
+   border: none;
+   margin-left: 5%;
+   transition: 0.4s ease-in-out;
+}
+#name1:hover{
+    cursor: pointer;
+    width: 270px;
+    height: 37px;
+   box-shadow:4px 4px 5px white, -4px -4px 5px red ;
+   margin-left: 3%;
+}
+
+#log{
+    margin-left: 100px;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 9px bold;
+    transition: 0.65s ease-in-out;
+}
+#log:hover{
+    cursor: pointer;
+    background-color: crimson;
+    color:white;
+    width: 75px; height: 45px;
+    margin-left: 90px;
+
+}
+#f{
+    display: inline;
+    margin-right: 9px;
+   color: rgb(224, 23, 23);
+}
+#y:hover{
+text-decoration: underline 2px red;
+transition: 0.43s;
+}
+
+
+
